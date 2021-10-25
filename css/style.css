@@ -85,43 +85,95 @@ body {
 	right: 0;
 	bottom: 0;
 }
-
 .slider {
+	margin: 0 0 50px 0;
 }
-
-.slider-slidecontent {
-	min-width: 388px;
-}
-
-.slider-slide {
+.slide {
 	border-radius: 20px;
 	min-height: 400px;
+	display: flex;
+	align-items: center;
+	padding: 0 0 0 100px;
+	position: relative;
+	overflow: hidden;
 }
 .slide-text-light {
 	background-color: grey;
 	color: #fff;
 }
-
-.slider-slide-title {
+.slide-content {
+	max-width: 400px;
+	position: relative;
+}
+.slidetitle {
+	margin-top: 0;
+	margin-bottom: 15px;
 	font-weight: bold;
 	font-size: 50px;
 	line-height: 51px;
-	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	color: #ffffff;
 }
-.slider-slide-text {
+.slidetext {
+	font-weight: bold;
 	font-size: 16px;
 	line-height: 23px;
-	font-weight: solid;
+	margin: 0 0 32px 0;
 }
-.button {
+.sledebutton {
+	font-weight: 500;
 	font-size: 14px;
 	line-height: 23px;
 	text-decoration: none;
-	border-radius: 25px;
-	padding: 12px 52px;
+	padding: 11px 50px;
 	display: inline-block;
+	border-radius: 25px;
 }
 .button-primary {
 	background: #f47322;
 	color: #fff;
+}
+.slide-summer {
+	background-image: url(../img/summer.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.slide:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(90deg, rgba(0, 0, 0, 0.43) 40.45%, rgba(0, 0, 0, 0) 100%);
+}
+
+.promo {
+}
+.card {
+	border-radius: 20px;
+	position: relative;
+	overflow: hidden;
+}
+.card:before {
+	background: linear-gradient(90deg, rgba(0, 0, 0, 0.43) 40.45%, rgba(0, 0, 0, 0) 100%);
+	position: absolute;
+	content: "";
+}
+
+.card-header {
+}
+.card-title {
+}
+.card-description {
+}
+.card-footer {
+}
+.card-price {
+}
+.card-delivery {
+}
+.button {
+}
+.button-default {
 }
