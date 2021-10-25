@@ -86,5 +86,42 @@ body {
 	bottom: 0;
 }
 
-.shopping-cart-img {
+.slider {
+}
+
+.slider-slidecontent {
+	min-width: 388px;
+}
+
+.slider-slide {
+	border-radius: 20px;
+	min-height: 400px;
+}
+.slide-text-light {
+	background-color: grey;
+	color: #fff;
+}
+
+.slider-slide-title {
+	font-weight: bold;
+	font-size: 50px;
+	line-height: 51px;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.slider-slide-text {
+	font-size: 16px;
+	line-height: 23px;
+	font-weight: solid;
+}
+.button {
+	font-size: 14px;
+	line-height: 23px;
+	text-decoration: none;
+	border-radius: 25px;
+	padding: 12px 52px;
+	display: inline-block;
+}
+.button-primary {
+	background: #f47322;
+	color: #fff;
 }
