@@ -243,6 +243,7 @@ body {
 	display: flex;
 	flex-wrap: wrap;
 	margin: -9px;
+	padding: 0 0 100px 0;
 }
 .delivery-cards-card {
 	width: 285px;
@@ -268,4 +269,122 @@ body {
 }
 .tag-health {
 	background-color: #d0fd89;
+}
+.tag-vegetabiles {
+	background-color: #aebc41;
+	color: #fff;
+}
+.tag-meat {
+	background-color: #b86b78;
+	color: #fff;
+}
+.tag-bird {
+	background-color: #d68334;
+	color: #fff;
+}
+.tag-fish {
+	background-color: #cd6255;
+	color: #fff;
+}
+.tag-childrens {
+	background-color: #fffdbf;
+}
+.tag-parents {
+	background-color: #f6fdc8;
+}
+.tag-festive {
+	background-color: #fef7fe;
+}
+
+.categories {
+	background: #f6f6f6;
+	padding: 40px 0 0 0;
+}
+.container {
+}
+.categories-tabs-title {
+}
+.categories-tabs {
+	margin: 50px 0 0 0;
+	display: flex;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	line-height: 23px;
+	color: #49494f;
+	list-style: none;
+}
+.categories-tabs-item {
+}
+.tabs-item-link {
+	color: black;
+	text-decoration: none;
+	margin: 0 58px 0 0;
+}
+.categories-cards {
+	margin: 60px 0 0 0;
+}
+.categories-card {
+	width: 270px;
+	height: 470px;
+	background: #ffffff;
+	border-radius: 20px;
+	overflow: hidden;
+}
+.content-img {
+	width: 100%;
+}
+.card-content {
+	padding: 0 25px 0 25px;
+}
+.card-title {
+	font-size: 20px;
+	line-height: 23px;
+}
+.card-description {
+	font-size: 14px;
+	line-height: 23px;
+	color: #b9b9be;
+	margin: 0 0 35px 0;
+}
+.card-info {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.card-good {
+}
+.card-price {
+	display: block;
+	font-size: 23px;
+	line-height: 23px;
+	color: #4b4b51;
+	margin: 0 0 5px 0;
+}
+.card-weight {
+	display: block;
+	font-size: 17px;
+	line-height: 20px;
+	color: #aaaab1;
+}
+.button {
+}
+.border-button {
+	cursor: pointer;
+	background: transparent;
+	border: 2px solid #f37321;
+	box-sizing: border-box;
+	border-radius: 33px;
+	color: #f37321;
+	padding: 16px 25px;
+	font-size: 16px;
+	line-height: 19px;
+}
+.tabs-item-link.active {
+	color: #f37321;
+}
+
+.button-more {
+	display: block;
+	margin: auto;
 }
